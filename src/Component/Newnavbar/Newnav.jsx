@@ -3,9 +3,9 @@ import React from 'react'
 export default function Newnav() {
   return (
     <div className='bg-black'>
-      <div className="container-fluid  ">
-        <div className="row">
-            <div className="col-md-8 left text-white d-flex justify-content-evenly ">
+      <div className="container-fluid new_nav ">
+        <div className="row new_data">
+            <div className="col-md-8 left_data text-white d-flex justify-content-evenly ">
                <a href="" className='nav-link'>All</a>
                <a href="" className='nav-link'>Mobiles</a>
                <a href=""className='nav-link'>Bestsellers</a>
@@ -17,7 +17,7 @@ export default function Newnav() {
                <a href=""className='nav-link'>Amazon Pay</a>
                
             </div>
-            <div className="right col-md-4">
+            <div className="right_data col-md-4">
 <img src="img/nav.jpg" alt="" />
             </div>
         </div>
